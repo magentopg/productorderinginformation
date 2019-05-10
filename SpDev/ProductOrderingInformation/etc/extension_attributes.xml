@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <extension_attributes for="Magento\Catalog\Api\Data\ProductInterface">
+        <attribute code="sales_information" type="SpDev\ProductOrderingInformation\Api\Data\SalesInformationInterface[]" />
+    </extension_attributes>
+</config>
